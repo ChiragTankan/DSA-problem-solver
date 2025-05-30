@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { GEMINI_MODEL_NAME } from '../constants';
 
-const apiKey = AIzaSyAYqLS3TUsndMI7sufnw5eMibOr_pIAXa0;
+const apiKey = ;
 
 if (!apiKey) {
   console.error("API_KEY is not defined in environment variables. Please set process.env.API_KEY.");
