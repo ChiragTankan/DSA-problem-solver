@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Problem Solver AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* For Webkit-based browsers (Chrome, Safari, Edge Chromium) */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0f172a; /* A darker slate, like slate-900 */
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #334155; /* slate-700 */
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569; /* slate-600 */
+    }
+
+    /* For Firefox */
+    /* Note: Firefox scrollbar styling is less customizable than Webkit */
+    /* These are basic colorings. For more complex styling, it might not be fully supported. */
+    * {
+      scrollbar-width: thin; /* "auto" or "thin" */
+      scrollbar-color: #334155 #0f172a; /* thumb and track color */
+    }
+
+    /* Styles for .custom-scrollbar (moved from OutputSection.tsx) */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #1e293b; /* slate-800 */
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155; /* slate-700 */
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #475569; /* slate-600 */
+    }
+    /* For Firefox, if specific styling for .custom-scrollbar is desired and supported */
+    .custom-scrollbar {
+        scrollbar-color: #334155 #1e293b; /* thumb and slate-800 track for custom scrollbar */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.1.0"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-900">
+  <div id="root"></div>
+  <script type="module" src="index.tsx"></script>
+</body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

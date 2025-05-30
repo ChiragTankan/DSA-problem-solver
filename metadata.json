@@ -1,0 +1,5 @@
+{
+  "name": "Copy of DSA Problem Solver AI",
+  "description": "An AI-powered tool that takes a Data Structures and Algorithms problem statement, examples, and constraints, then uses Google's Gemini API to generate a Python solution. Ideal for learning and practice.",
+  "requestFramePermissions": []
+}
